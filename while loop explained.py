@@ -1,4 +1,5 @@
-number=0
-while number !=8:
-    number = number + 1
-    print ('the number is',number)
+answer='N'
+while answer != 'Y':
+    print('are we there yet?')
+    answer = input('please respond with Y or N')
+print('yay we are there ! ')
